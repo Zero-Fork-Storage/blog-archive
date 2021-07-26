@@ -1,0 +1,97 @@
+baseURL: "https://blog.zeroday0619.dev"
+title: "zeroday0619's Story"
+paginate: 5
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: ""
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: "zeroday0619's Story"
+  description: "zeroday0619의 컴퓨터 공학, 리눅스, 프로그래밍, 서브컬쳐 이야기"
+  keywords: ["컴퓨터 공학", "리눅스", "프로그래밍", "서브컬쳐" "zeroday0619"]
+  author: "zeroday0619"
+  images: ["https://media.discordapp.net/attachments/829169388871090196/869135001541828628/1500x500.png"]
+  DateFormat: "July 26, 2021"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "https://media.discordapp.net/attachments/829169388871090196/869156130964791347/unknown.png"
+    favicon16x16: "https://media.discordapp.net/attachments/829169388871090196/869156130964791347/unknown.png?width=16&height=16"
+    favicon32x32: "https://media.discordapp.net/attachments/829169388871090196/869156130964791347/unknown.png?width=32&height=32"
+    apple_touch_icon: "https://media.discordapp.net/attachments/829169388871090196/869156130964791347/unknown.png?width=144&height=144"
+    safari_pinned_tab: "https://media.discordapp.net/attachments/829169388871090196/869156130964791347/unknown.png"
+
+  label:
+    text: "Home"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+  
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my blog
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/dev_zeroday0619"
+    - name: github
+      url: "https://github.com/zeroday0619"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+  
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+  # for sarch
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
