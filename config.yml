@@ -73,7 +73,7 @@ params:
         hiddenInSingle: true # hide on single page
 
     editPost:
-        URL: "https://github.com/zeroday0619/blog/blob/main/content/"
+        URL: "https://github.com/zeroday0619/blog/edit/main/content"
         Text: "수정하기" # edit text
         appendFilePath: true # to append file path to Edit link
     # for sarch
