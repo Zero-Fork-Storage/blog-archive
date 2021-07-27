@@ -50,9 +50,9 @@ params:
   
     # home-info mode
     homeInfoParams:
-        Title: "Hi there \U0001F44B"
+        Title: "zeroday0619's Programming Life"
         Content: >
-            *Welcome to my blog in "zeroday 0619 Programming Life"*\
+            *Welcome to my blog in **"zeroday0619's Programming Life"**
 
              Written by [@zeroday0619](about/)
 
