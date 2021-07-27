@@ -22,8 +22,8 @@ outputs:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: "zeroday0619's Programming Life"
-    description: "zeroday0619의 컴퓨터 공학, 리눅스, 프로그래밍, 서브컬쳐 이야기"
-    keywords: ["컴퓨터 공학", "리눅스", "프로그래밍", "서브컬쳐"]
+    description: "프로젝트 & 스터디 하면서 알게 된걸 정리하는 공간"
+    keywords: ["컴퓨터 공학", "리눅스", "프로그래밍"]
     author: "zeroday0619"
     images: ["https://media.discordapp.net/attachments/829169388871090196/869135001541828628/1500x500.png"]
     defaultTheme: auto
