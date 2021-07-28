@@ -34,13 +34,11 @@ params:
     ShowPostNavLinks: true
     hidemeta: false
     hideSummary: false
-    showtoc: false
+    showtoc: true
     tocopen: false
 
     assets:
-        # disableHLJS: false
-        # disableFingerprinting: false
-        favicon: "https://media.discordapp.net/attachments/829169388871090196/869156130964791347/unknown.png"
+        favicon: "favicon.ico"
         favicon16x16: "https://media.discordapp.net/attachments/829169388871090196/869156130964791347/unknown.png?width=16&height=16"
         favicon32x32: "https://media.discordapp.net/attachments/829169388871090196/869156130964791347/unknown.png?width=32&height=32"
         apple_touch_icon: "https://media.discordapp.net/attachments/829169388871090196/869156130964791347/unknown.png?width=144&height=144"
@@ -53,9 +51,9 @@ params:
     homeInfoParams:
         Title: "zeroday0619's Programming Life"
         Content: >
-            *Welcome to my blog in **"zeroday0619's Programming Life"**
-
-             Written by [@zeroday0619](about/)
+            *Welcome to my blog in zeroday0619's Programming Life*\
+            
+            Written by [@zeroday0619](about/)
 
     socialIcons:
         - name: twitch
@@ -77,7 +75,7 @@ params:
         URL: "https://github.com/zeroday0619/blog/edit/main/content"
         Text: "수정하기" # edit text
         appendFilePath: true # to append file path to Edit link
-    # for sarch
+    # for search
     # https://fusejs.io/api/options.html
     fuseOpts:
         isCaseSensitive: false
