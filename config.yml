@@ -25,6 +25,7 @@ params:
     description: "프로젝트 & 스터디 하면서 알게 된걸 정리하는 공간"
     keywords: ["컴퓨터 공학", "리눅스", "프로그래밍"]
     author: "zeroday0619"
+    languageAltTitle: "Korean"  
     images: ["https://media.discordapp.net/attachments/829169388871090196/869135001541828628/1500x500.png"]
     defaultTheme: auto
     disableThemeToggle: false
