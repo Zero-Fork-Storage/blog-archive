@@ -31,6 +31,7 @@ params:
 
     ShowReadingTime: true
     comments: true
+    ShowPostNavLinks: true
     hidemeta: false
     hideSummary: false
     showtoc: false
