@@ -26,7 +26,7 @@ params:
     keywords: ["컴퓨터 공학", "리눅스", "프로그래밍"]
     author: "zeroday0619"
     languageAltTitle: "Korean"  
-    images: ["https://media.discordapp.net/attachments/829169388871090196/869135001541828628/1500x500.png"]
+    images: ["https://github-readme-stats.vercel.app/api?username=zeroday0619&count_private=true&show_icons=true&hide_border=true&theme=radical&hide_title=true"]
     defaultTheme: auto
     disableThemeToggle: false
 
