@@ -40,10 +40,10 @@ params:
 
     assets:
         favicon: "favicon.ico"
-        favicon16x16: "https://media.discordapp.net/attachments/829169388871090196/869156130964791347/unknown.png?width=16&height=16"
-        favicon32x32: "https://media.discordapp.net/attachments/829169388871090196/869156130964791347/unknown.png?width=32&height=32"
-        apple_touch_icon: "https://media.discordapp.net/attachments/829169388871090196/869156130964791347/unknown.png?width=144&height=144"
-        safari_pinned_tab: "https://media.discordapp.net/attachments/829169388871090196/869156130964791347/unknown.png"
+        favicon16x16: "favicon.ico"
+        favicon32x32: favicon.ico"
+        apple_touch_icon: "favicon.png"
+        safari_pinned_tab: "favicon.png"
 
     label:
         text: "🏠"
