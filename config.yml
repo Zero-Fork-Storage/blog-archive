@@ -26,7 +26,7 @@ params:
     keywords: ["컴퓨터 공학", "리눅스", "프로그래밍"]
     author: "zeroday0619"
     languageAltTitle: "Korean"  
-    images: ["https://github-readme-stats.vercel.app/api?username=zeroday0619&count_private=true&show_icons=true&hide_border=true&theme=radical&hide_title=true"]
+    images: ["https://cdn.statically.io/gh/zeroday0619/blog/main/static/home.png"]
     defaultTheme: auto
     disableThemeToggle: false
 
@@ -39,11 +39,11 @@ params:
     tocopen: false
 
     assets:
-        favicon: "favicon.ico"
-        favicon16x16: "favicon.ico"
-        favicon32x32: favicon.ico"
-        apple_touch_icon: "favicon.png"
-        safari_pinned_tab: "favicon.png"
+        favicon: "https://cdn.statically.io/gh/zeroday0619/blog/main/static/favicon.ico"
+        favicon16x16: "https://cdn.statically.io/gh/zeroday0619/blog/main/static/favicon.ico"
+        favicon32x32: "https://cdn.statically.io/gh/zeroday0619/blog/main/static/favicon.ico"
+        apple_touch_icon: "https://cdn.statically.io/gh/zeroday0619/blog/main/static/favicon.png"
+        safari_pinned_tab: "https://cdn.statically.io/gh/zeroday0619/blog/main/static/favicon.png"
 
     label:
         text: "🏠"
