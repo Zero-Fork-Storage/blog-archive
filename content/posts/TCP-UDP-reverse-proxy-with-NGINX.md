@@ -50,8 +50,7 @@ stream {
 }
 ```
 
-**upstream**의 [server_ip]와 [port]에 Origin Server IP와 PORT로 변경하고 server의 listen [port]를 원하는 포트나 또는 origin server 포트로 변경해 주고 다음 명령어를 입력하여 설정을 적용합니다.
-
+upstream의 [server_ip]와 [port]에 Origin Server IP와 PORT로 변경하고 server의 listen [port]를 원하는 포트나 origin server 포트로 변경해 주고 다음 명령어를 입력하여 설정을 적용합니다.
 ```bash
 sudo service nginx restart
 ```
