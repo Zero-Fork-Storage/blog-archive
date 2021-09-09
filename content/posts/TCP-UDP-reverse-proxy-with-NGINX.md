@@ -8,7 +8,7 @@ tags: ["NGINX", "TCP reverse proxy", "UDP reverse proxy", "Minecraft Server"]
 draft: false
 ---
 
-클라우드플레어로 마인크래프트 서버 컴퓨터 IP를 완전히 숨기지 못하여 각종 공격에 취약해집니다. 이에 Origin Server IP를 숨기기 위해 NGINX로 구축한 proxy server를 경유하도록 하여 Origin Server의 IP를 노출하지 않도록 구축하였습니다.
+클라우드플레어로 마인크래프트 서버 컴퓨터 IP를 완전히 숨기지 못하여 각종 공격에 취약해집니다. 이에 Origin Server IP를 숨기기 위해 NGINX로 구축한 proxy server를 경유하도록 하여 Origin Server의 IP를 노출하지 않도록 구축해보았습니다.
 
 ## 구성
 
