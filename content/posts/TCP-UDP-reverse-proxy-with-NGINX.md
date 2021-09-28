@@ -15,12 +15,16 @@ draft: false
  **우분투 20.04 환경을 전제로 설명합니다.** \
  **클라우드플레어 스펙트럼이 아닌 SRV 레코드를 사용하는 환경입니다.**
 
-`Origin Server <--> Proxy Server <--> Client` \
-ex) `121.xxx.xxx.xxx <--> 151.xxx.xxx.xxx / test-server.example.com <--> Client`
+----------------------------------------------------------------
+
+            Origin Server  <-->   Proxy Server   <--> Client
+
+        ex) 21x.xxx.xxx.xxx <--> 158.xxx.xxx.xxx <--> Client
 
 ## NGINX 설정
 
 ```nginx
+
 # /etc/nginx.conf
 
 stream {
@@ -51,6 +55,7 @@ stream {
 ```
 
 upstream의 [server_ip]와 [port]에 Origin Server IP와 PORT로 변경하고 server의 listen [port]를 원하는 포트나 origin server 포트로 변경해 주고 다음 명령어를 입력하여 설정을 적용합니다.
+
 ```bash
 sudo service nginx restart
 ```
