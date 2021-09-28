@@ -1,0 +1,9 @@
+{
+    "name": "zeroday0619's Programming Life",
+    "short_name": "zeroday0619's Blog",
+    "theme_color": "#7adda8",
+    "background_color": "rgba(255,255,255,255)",
+    "display": "fullscreen",
+    "scope": "/",
+    "start_url": "/"
+}
