@@ -17,9 +17,7 @@ draft: false
 
 ----------------------------------------------------------------
 
-            Origin Server  <-->   Proxy Server   <--> Client
-
-        ex) 21x.xxx.xxx.xxx <--> 158.xxx.xxx.xxx <--> Client
+Origin Server <--> Proxy Server <--> Client
 
 ## NGINX 설정
 
