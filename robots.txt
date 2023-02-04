@@ -1,3 +1,3 @@
 User-agent: *
-Disallow:
+Disallow:/
 Sitemap: https://blog.zeroday0619.dev/sitemap.xml
